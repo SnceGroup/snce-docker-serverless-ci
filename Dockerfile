@@ -4,7 +4,7 @@ FROM node:14-alpine
 # Packages needed by node
 
 RUN apk update && apk upgrade && \
-    apk add --no-cache bash git openssh build-base python curl
+    apk add --no-cache bash git openssh build-base python curl jq
 
 # ------------------------------------
 # AWS CLI v2
