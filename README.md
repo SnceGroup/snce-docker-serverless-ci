@@ -3,7 +3,7 @@
 
 Created to be used in CI environments to build node projects. Suitable to build serverless framework lambda functions.
 
-It inherits from node Alpine base image and install minimum tooling to build binaries node requirements with python.
+It inherits from node Alpine base image and install minimum tooling to build binaries node requirements with python and AWS cli toolset.
 Some alpine deps may be added in the future.
 
 To build:
