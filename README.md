@@ -9,8 +9,11 @@ Some alpine deps may be added in the future.
 To build:
 
 ```bash
+
+# The tag is formed from the NODE version and an incremental internal version
+
 docker build -t sncegroup/node-serverless-ci:latest .
-docker build -t sncegroup/node-serverless-ci:14.{version}-latest .
+docker build -t sncegroup/node-serverless-ci:14-{version} .
 
 docker push sncegroup/node-serverless-ci:latest
 docker push sncegroup/node-serverless-ci:14.{version}-latest
